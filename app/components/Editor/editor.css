@@ -1,0 +1,35 @@
+/* .jsonEditor {
+    display: inline-flex;
+    gap: 10px;
+    font-family: Consolas, "Courier New", Courier, monospace;
+    line-height: 21px;
+    background-color: #282a3a;
+    border-radius: 2px;
+    padding: 20px 10px;
+}
+textarea {
+    line-height: 21px;
+    overflow-y: hidden;
+    padding: 0;
+    border: 0;
+    background: #282a3a;
+    color: #fff;
+    min-width: 500px;
+    outline: none;
+    resize: none;
+    font-family: Consolas, "Courier New", Courier, monospace;
+}
+.numbers {
+    width: 20px;
+    text-align: right;
+}
+
+.numbers span {
+    counter-increment: linenumber;
+}
+
+.numbers span::before {
+    content: counter(linenumber);
+    display: block;
+    color: #506882;
+} */

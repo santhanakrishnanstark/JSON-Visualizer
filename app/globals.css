@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#jsonEditor textarea {
+  min-height: 50vh;
+  background-color: #343434;
+  color: #fff;
+}
+
+#visualizer {
+  min-height: 50vh;
+}
+
+@media screen and (min-width: 640px) {
+  #jsonEditor {
+    height: calc(100vh - 250px);
+  }
+  #visualizer {
+    height: calc(100vh - 250px);
+  }
+}
