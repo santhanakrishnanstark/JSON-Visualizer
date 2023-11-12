@@ -1,3 +1,24 @@
+section.fullScreen {
+    position: fixed;
+    left: 50%;
+    width: 80vw;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    height: 90vh;
+    box-shadow: 0 0 500px 100px #ccc;
+    background-color: #fff;
+    padding: 20px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+section.fullScreen .fullscreenBtn{
+    position: absolute;
+    right: 20px;
+    z-index: 5;
+}
+
+
 /* .jsonEditor {
     display: inline-flex;
     gap: 10px;
