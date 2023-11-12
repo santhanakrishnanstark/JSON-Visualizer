@@ -1,7 +1,6 @@
 'use client'
 
 import Image from "next/image";
-import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import Tree from "../Tree/tree";
 import './editor.css';
@@ -164,12 +163,11 @@ const Editor = () => {
         <>
             <section id='tools' className='w-full max-w-7xl'>
                 <div className='w-1/3 md:w-1/6 flex flex-col ml-auto'>
-                    <Link
-                        href="#"
+                    <button
                         onClick={handleVisualize}
                         className="rounded-md bg-indigo-600 text-center px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
                         Visualize
-                    </Link>
+                    </button>
                 </div>
             </section>
             <div className="z-10 w-full max-w-7xl items-start justify-between font-mono text-sm sm:flex gap-8">
